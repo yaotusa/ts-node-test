@@ -1,0 +1,21 @@
+{
+  "name": "ts-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=\"--loader ts-node/esm\" node index.cts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/plugin-webpack": "^7.4.0",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "volta": {
+    "node": "18.15.0"
+  }
+}
